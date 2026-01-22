@@ -1,0 +1,200 @@
+2026-01-22 15:21:45.097 [INFO] c.b.t.M4Activity7.BankAccountClass - Deposit Requested : ₱ 5000.0
+2026-01-22 15:21:45.106 [INFO] c.b.t.M4Activity7.BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-22 15:21:45.107 [INFO] c.b.t.M4Activity7.BankAccountClass - Withdraw requested : ₱3000.0 
+2026-01-22 15:21:45.107 [INFO] c.b.t.M4Activity7.BankAccountClass - Withdrawal Completed: ₱7000.0
+2026-01-22 15:21:45.107 [INFO] c.b.t.M4Activity7.BankAccountClass - Test 'Withdrawal' completed successfully.
+2026-01-22 15:21:45.108 [INFO] c.b.t.M4Activity7.BankAccountClass - Deposit Requested : ₱ -500.0
+2026-01-22 15:21:45.108 [ERROR] c.b.t.M4Activity7.BankAccountClass - ERROR : Cannot deposit negative value : ₱-500.0
+2026-01-22 15:21:45.122 [ERROR] c.b.t.M4Activity7.BankAccountClass - Test 'Deposit' failed due to invalid amount.
+com.bpi.training.M4Activity7.InvalidAmountException: ERROR : Invalid ammount entered
+	at M4_Activity1/com.bpi.training.M4Activity7.BankAccountClass.deposit(BankAccountClass.java:35)
+	at M4_Activity1/com.bpi.training.M4Activity7.MainApplication.lambda$2(MainApplication.java:13)
+	at M4_Activity1/com.bpi.training.M4Activity7.BankAccountClass.runTest(BankAccountClass.java:48)
+	at M4_Activity1/com.bpi.training.M4Activity7.MainApplication.main(MainApplication.java:13)
+2026-01-22 15:21:45.125 [INFO] c.b.t.M4Activity7.BankAccountClass - Withdraw requested : ₱20000.0 
+2026-01-22 15:21:45.125 [WARN] c.b.t.M4Activity7.BankAccountClass - WARNING : Insufficient funds, amount entered : ₱20000.0 ; current balance is : Balance 7000.0
+2026-01-22 15:21:45.126 [ERROR] c.b.t.M4Activity7.BankAccountClass - Test 'Withdrawal' failed due to insufficient funds.
+com.bpi.training.M4Activity7.InsufficientFundsException: ERROR : Insufficient amount requested
+	at M4_Activity1/com.bpi.training.M4Activity7.BankAccountClass.withdraw(BankAccountClass.java:21)
+	at M4_Activity1/com.bpi.training.M4Activity7.MainApplication.lambda$3(MainApplication.java:14)
+	at M4_Activity1/com.bpi.training.M4Activity7.BankAccountClass.runTest(BankAccountClass.java:48)
+	at M4_Activity1/com.bpi.training.M4Activity7.MainApplication.main(MainApplication.java:14)
+2026-01-22 15:21:45.126 [INFO] c.b.t.M4Activity7.BankAccountClass - Deposit Requested : ₱ 60000.0
+2026-01-22 15:21:45.126 [WARN] c.b.t.M4Activity7.BankAccountClass - Large deposit: ₱60000.0 - requires verification
+2026-01-22 15:21:45.126 [INFO] c.b.t.M4Activity7.BankAccountClass - Deposit Completed : ₱60000.0, New balance : ₱67000.0
+2026-01-22 15:21:45.127 [INFO] c.b.t.M4Activity7.BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-22 15:21:58.031 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Requested : ₱ 5000.0
+2026-01-22 15:21:58.037 [INFO] c.b.t.M4Activity8.BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-22 15:21:58.038 [INFO] c.b.t.M4Activity8.BankAccountClass - Withdraw requested : ₱3000.0 
+2026-01-22 15:21:58.038 [INFO] c.b.t.M4Activity8.BankAccountClass - Withdrawal Completed: ₱7000.0
+2026-01-22 15:21:58.038 [INFO] c.b.t.M4Activity8.BankAccountClass - Test 'Withdrawal' completed successfully.
+2026-01-22 15:21:58.038 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Requested : ₱ -500.0
+2026-01-22 15:21:58.038 [ERROR] c.b.t.M4Activity8.BankAccountClass - ERROR : Cannot deposit negative value : ₱-500.0
+2026-01-22 15:21:58.039 [ERROR] c.b.t.M4Activity8.BankAccountClass - Test 'Deposit' failed due to invalid amount.
+com.bpi.training.M4Activity8.InvalidAmountException: ERROR : Invalid ammount entered
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.deposit(BankAccountClass.java:37)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.lambda$2(MainApplication.java:14)
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.runTest(BankAccountClass.java:50)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.main(MainApplication.java:14)
+2026-01-22 15:21:58.042 [INFO] c.b.t.M4Activity8.BankAccountClass - Withdraw requested : ₱20000.0 
+2026-01-22 15:21:58.042 [WARN] c.b.t.M4Activity8.BankAccountClass - WARNING : Insufficient funds, amount entered : ₱20000.0 ; current balance is : Balance 7000.0
+2026-01-22 15:21:58.043 [ERROR] c.b.t.M4Activity8.BankAccountClass - Test 'Withdrawal' failed due to insufficient funds.
+com.bpi.training.M4Activity8.InsufficientFundsException: ERROR : Insufficient amount requested
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.withdraw(BankAccountClass.java:23)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.lambda$3(MainApplication.java:15)
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.runTest(BankAccountClass.java:50)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.main(MainApplication.java:15)
+2026-01-22 15:21:58.044 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Requested : ₱ 60000.0
+2026-01-22 15:21:58.046 [WARN] c.b.t.M4Activity8.BankAccountClass - Large deposit: ₱60000.0 - requires verification
+2026-01-22 15:21:58.046 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Completed : ₱60000.0, New balance : ₱67000.0
+2026-01-22 15:21:58.046 [INFO] c.b.t.M4Activity8.BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-22 15:23:56.612 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Requested : ₱ 5000.0
+2026-01-22 15:23:56.618 [INFO] c.b.t.M4Activity8.BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-22 15:23:56.619 [INFO] c.b.t.M4Activity8.BankAccountClass - Withdraw requested : ₱3000.0 
+2026-01-22 15:23:56.620 [INFO] c.b.t.M4Activity8.BankAccountClass - Withdrawal Completed: ₱7000.0
+2026-01-22 15:23:56.620 [INFO] c.b.t.M4Activity8.BankAccountClass - Test 'Withdrawal' completed successfully.
+2026-01-22 15:23:56.620 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Requested : ₱ -500.0
+2026-01-22 15:23:56.620 [ERROR] c.b.t.M4Activity8.BankAccountClass - ERROR : Cannot deposit negative value : ₱-500.0
+2026-01-22 15:23:56.621 [ERROR] c.b.t.M4Activity8.BankAccountClass - Test 'Deposit' failed due to invalid amount.
+com.bpi.training.M4Activity8.InvalidAmountException: ERROR : Invalid ammount entered
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.deposit(BankAccountClass.java:37)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.lambda$2(MainApplication.java:14)
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.runTest(BankAccountClass.java:50)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.main(MainApplication.java:14)
+2026-01-22 15:23:56.625 [INFO] c.b.t.M4Activity8.BankAccountClass - Withdraw requested : ₱20000.0 
+2026-01-22 15:23:56.626 [WARN] c.b.t.M4Activity8.BankAccountClass - WARNING : Insufficient funds, amount entered : ₱20000.0 ; current balance is : Balance 7000.0
+2026-01-22 15:23:56.626 [ERROR] c.b.t.M4Activity8.BankAccountClass - Test 'Withdrawal' failed due to insufficient funds.
+com.bpi.training.M4Activity8.InsufficientFundsException: ERROR : Insufficient amount requested
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.withdraw(BankAccountClass.java:23)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.lambda$3(MainApplication.java:15)
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.runTest(BankAccountClass.java:50)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.main(MainApplication.java:15)
+2026-01-22 15:23:56.626 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Requested : ₱ 60000.0
+2026-01-22 15:23:56.626 [WARN] c.b.t.M4Activity8.BankAccountClass - Large deposit: ₱60000.0 - requires verification
+2026-01-22 15:23:56.628 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Completed : ₱60000.0, New balance : ₱67000.0
+2026-01-22 15:23:56.628 [INFO] c.b.t.M4Activity8.BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-22 15:25:37.123 [INFO] - Deposit Requested : ₱ 5000.0
+2026-01-22 15:25:37.126 [INFO] - Test 'Deposit' completed successfully.
+2026-01-22 15:25:37.128 [INFO] - Withdraw requested : ₱3000.0 
+2026-01-22 15:25:37.129 [INFO] - Withdrawal Completed: ₱7000.0
+2026-01-22 15:25:37.129 [INFO] - Test 'Withdrawal' completed successfully.
+2026-01-22 15:25:37.130 [INFO] - Deposit Requested : ₱ -500.0
+2026-01-22 15:25:37.130 [ERROR] - ERROR : Cannot deposit negative value : ₱-500.0
+2026-01-22 15:25:37.130 [ERROR] - Test 'Deposit' failed due to invalid amount.
+com.bpi.training.M4Activity8.InvalidAmountException: ERROR : Invalid ammount entered
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.deposit(BankAccountClass.java:37)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.lambda$2(MainApplication.java:14)
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.runTest(BankAccountClass.java:50)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.main(MainApplication.java:14)
+2026-01-22 15:25:37.137 [INFO] - Withdraw requested : ₱20000.0 
+2026-01-22 15:25:37.137 [WARN] - WARNING : Insufficient funds, amount entered : ₱20000.0 ; current balance is : Balance 7000.0
+2026-01-22 15:25:37.137 [ERROR] - Test 'Withdrawal' failed due to insufficient funds.
+com.bpi.training.M4Activity8.InsufficientFundsException: ERROR : Insufficient amount requested
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.withdraw(BankAccountClass.java:23)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.lambda$3(MainApplication.java:15)
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.runTest(BankAccountClass.java:50)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.main(MainApplication.java:15)
+2026-01-22 15:25:37.139 [INFO] - Deposit Requested : ₱ 60000.0
+2026-01-22 15:25:37.139 [WARN] - Large deposit: ₱60000.0 - requires verification
+2026-01-22 15:25:37.140 [INFO] - Deposit Completed : ₱60000.0, New balance : ₱67000.0
+2026-01-22 15:25:37.140 [INFO] - Test 'Deposit' completed successfully.
+2026-01-22 15:27:17.311 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Requested : ₱ 5000.0
+2026-01-22 15:27:17.315 [INFO] c.b.t.M4Activity8.BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-22 15:27:17.316 [INFO] c.b.t.M4Activity8.BankAccountClass - Withdraw requested : ₱3000.0 
+2026-01-22 15:27:17.316 [INFO] c.b.t.M4Activity8.BankAccountClass - Withdrawal Completed: ₱7000.0
+2026-01-22 15:27:17.316 [INFO] c.b.t.M4Activity8.BankAccountClass - Test 'Withdrawal' completed successfully.
+2026-01-22 15:27:17.316 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Requested : ₱ -500.0
+2026-01-22 15:27:17.318 [ERROR] c.b.t.M4Activity8.BankAccountClass - ERROR : Cannot deposit negative value : ₱-500.0
+2026-01-22 15:27:17.318 [ERROR] c.b.t.M4Activity8.BankAccountClass - Test 'Deposit' failed due to invalid amount.
+com.bpi.training.M4Activity8.InvalidAmountException: ERROR : Invalid ammount entered
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.deposit(BankAccountClass.java:37)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.lambda$2(MainApplication.java:14)
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.runTest(BankAccountClass.java:50)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.main(MainApplication.java:14)
+2026-01-22 15:27:17.321 [INFO] c.b.t.M4Activity8.BankAccountClass - Withdraw requested : ₱20000.0 
+2026-01-22 15:27:17.321 [WARN] c.b.t.M4Activity8.BankAccountClass - WARNING : Insufficient funds, amount entered : ₱20000.0 ; current balance is : Balance 7000.0
+2026-01-22 15:27:17.321 [ERROR] c.b.t.M4Activity8.BankAccountClass - Test 'Withdrawal' failed due to insufficient funds.
+com.bpi.training.M4Activity8.InsufficientFundsException: ERROR : Insufficient amount requested
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.withdraw(BankAccountClass.java:23)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.lambda$3(MainApplication.java:15)
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.runTest(BankAccountClass.java:50)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.main(MainApplication.java:15)
+2026-01-22 15:27:17.322 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Requested : ₱ 60000.0
+2026-01-22 15:27:17.322 [WARN] c.b.t.M4Activity8.BankAccountClass - Large deposit: ₱60000.0 - requires verification
+2026-01-22 15:27:17.322 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Completed : ₱60000.0, New balance : ₱67000.0
+2026-01-22 15:27:17.322 [INFO] c.b.t.M4Activity8.BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-22 15:40:30.722 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Requested : ₱ 5000.0
+2026-01-22 15:40:30.725 [INFO] c.b.t.M4Activity8.BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-22 15:40:30.726 [INFO] c.b.t.M4Activity8.BankAccountClass - Withdraw requested : ₱3000.0 
+2026-01-22 15:40:30.726 [INFO] c.b.t.M4Activity8.BankAccountClass - Withdrawal Completed: ₱7000.0
+2026-01-22 15:40:30.726 [INFO] c.b.t.M4Activity8.BankAccountClass - Test 'Withdrawal' completed successfully.
+2026-01-22 15:40:30.727 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Requested : ₱ -500.0
+2026-01-22 15:40:30.727 [ERROR] c.b.t.M4Activity8.BankAccountClass - ERROR : Cannot deposit negative value : ₱-500.0
+2026-01-22 15:40:30.728 [ERROR] c.b.t.M4Activity8.BankAccountClass - Test 'Deposit' failed due to invalid amount.
+com.bpi.training.M4Activity8.InvalidAmountException: ERROR : Invalid ammount entered
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.deposit(BankAccountClass.java:36)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.lambda$2(MainApplication.java:14)
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.runTest(BankAccountClass.java:49)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.main(MainApplication.java:14)
+2026-01-22 15:40:30.731 [INFO] c.b.t.M4Activity8.BankAccountClass - Withdraw requested : ₱20000.0 
+2026-01-22 15:40:30.731 [WARN] c.b.t.M4Activity8.BankAccountClass - WARNING : Insufficient funds, amount entered : ₱20000.0 ; current balance is : Balance 7000.0
+2026-01-22 15:40:30.731 [ERROR] c.b.t.M4Activity8.BankAccountClass - Test 'Withdrawal' failed due to insufficient funds.
+com.bpi.training.M4Activity8.InsufficientFundsException: ERROR: Insufficient funds
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.withdraw(BankAccountClass.java:23)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.lambda$3(MainApplication.java:15)
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.runTest(BankAccountClass.java:49)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.main(MainApplication.java:15)
+2026-01-22 15:40:30.732 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Requested : ₱ 60000.0
+2026-01-22 15:40:30.732 [WARN] c.b.t.M4Activity8.BankAccountClass - Large deposit: ₱60000.0 - requires verification
+2026-01-22 15:40:30.732 [INFO] c.b.t.M4Activity8.BankAccountClass - Deposit Completed : ₱60000.0, New balance : ₱67000.0
+2026-01-22 15:40:30.733 [INFO] c.b.t.M4Activity8.BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-22 15:53:13.405 INFO  com.bpi.training.M4Activity8.BankAccountClass - Deposit Requested : ₱ 5000.0
+2026-01-22 15:53:13.406 INFO  com.bpi.training.M4Activity8.BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-22 15:53:13.406 INFO  com.bpi.training.M4Activity8.BankAccountClass - Withdraw requested : ₱3000.0 
+2026-01-22 15:53:13.408 INFO  com.bpi.training.M4Activity8.BankAccountClass - Withdrawal Completed: ₱7000.0
+2026-01-22 15:53:13.408 INFO  com.bpi.training.M4Activity8.BankAccountClass - Test 'Withdrawal' completed successfully.
+2026-01-22 15:53:13.408 INFO  com.bpi.training.M4Activity8.BankAccountClass - Deposit Requested : ₱ -500.0
+2026-01-22 15:53:13.408 ERROR com.bpi.training.M4Activity8.BankAccountClass - ERROR : Cannot deposit negative value : ₱-500.0
+2026-01-22 15:53:13.408 ERROR com.bpi.training.M4Activity8.BankAccountClass - Test 'Deposit' failed due to invalid amount.
+com.bpi.training.M4Activity8.InvalidAmountException: ERROR : Invalid amount entered
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.deposit(BankAccountClass.java:36)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.lambda$2(MainApplication.java:14)
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.runTest(BankAccountClass.java:49)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.main(MainApplication.java:14)
+2026-01-22 15:53:13.411 INFO  com.bpi.training.M4Activity8.BankAccountClass - Withdraw requested : ₱20000.0 
+2026-01-22 15:53:13.411 WARN  com.bpi.training.M4Activity8.BankAccountClass - WARNING : Insufficient funds, amount entered : ₱20000.0 ; current balance is : Balance 7000.0
+2026-01-22 15:53:13.412 ERROR com.bpi.training.M4Activity8.BankAccountClass - Test 'Withdrawal' failed due to insufficient funds.
+com.bpi.training.M4Activity8.InsufficientFundsException: ERROR: Insufficient funds
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.withdraw(BankAccountClass.java:23)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.lambda$3(MainApplication.java:15)
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.runTest(BankAccountClass.java:49)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.main(MainApplication.java:15)
+2026-01-22 15:53:13.412 INFO  com.bpi.training.M4Activity8.BankAccountClass - Deposit Requested : ₱ 60000.0
+2026-01-22 15:53:13.412 WARN  com.bpi.training.M4Activity8.BankAccountClass - Large deposit: ₱60000.0 - requires verification
+2026-01-22 15:53:13.413 INFO  com.bpi.training.M4Activity8.BankAccountClass - Deposit Completed : ₱60000.0, New balance : ₱67000.0
+2026-01-22 15:53:13.413 INFO  com.bpi.training.M4Activity8.BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-22 15:54:29.481 INFO  com.bpi.training.M4Activity8.BankAccountClass - Deposit Requested : ₱ 5000.0
+2026-01-22 15:54:29.484 INFO  com.bpi.training.M4Activity8.BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-22 15:54:29.484 INFO  com.bpi.training.M4Activity8.BankAccountClass - Withdraw requested : ₱3000.0 
+2026-01-22 15:54:29.485 INFO  com.bpi.training.M4Activity8.BankAccountClass - Withdrawal Completed: ₱7000.0
+2026-01-22 15:54:29.485 INFO  com.bpi.training.M4Activity8.BankAccountClass - Test 'Withdrawal' completed successfully.
+2026-01-22 15:54:29.485 INFO  com.bpi.training.M4Activity8.BankAccountClass - Deposit Requested : ₱ -500.0
+2026-01-22 15:54:29.485 ERROR com.bpi.training.M4Activity8.BankAccountClass - ERROR : Cannot deposit negative value : ₱-500.0
+2026-01-22 15:54:29.485 ERROR com.bpi.training.M4Activity8.BankAccountClass - Test 'Deposit' failed due to invalid amount.
+com.bpi.training.M4Activity8.InvalidAmountException: ERROR : Invalid amount entered
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.deposit(BankAccountClass.java:36)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.lambda$2(MainApplication.java:14)
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.runTest(BankAccountClass.java:49)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.main(MainApplication.java:14)
+2026-01-22 15:54:29.488 INFO  com.bpi.training.M4Activity8.BankAccountClass - Withdraw requested : ₱20000.0 
+2026-01-22 15:54:29.488 WARN  com.bpi.training.M4Activity8.BankAccountClass - WARNING : Insufficient funds, amount entered : ₱20000.0 ; current balance is : Balance 7000.0
+2026-01-22 15:54:29.488 ERROR com.bpi.training.M4Activity8.BankAccountClass - Test 'Withdrawal' failed due to insufficient funds.
+com.bpi.training.M4Activity8.InsufficientFundsException: ERROR: Insufficient funds
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.withdraw(BankAccountClass.java:23)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.lambda$3(MainApplication.java:15)
+	at M4_Activity1/com.bpi.training.M4Activity8.BankAccountClass.runTest(BankAccountClass.java:49)
+	at M4_Activity1/com.bpi.training.M4Activity8.MainApplication.main(MainApplication.java:15)
+2026-01-22 15:54:29.489 INFO  com.bpi.training.M4Activity8.BankAccountClass - Deposit Requested : ₱ 60000.0
+2026-01-22 15:54:29.490 WARN  com.bpi.training.M4Activity8.BankAccountClass - Large deposit: ₱60000.0 - requires verification
+2026-01-22 15:54:29.490 INFO  com.bpi.training.M4Activity8.BankAccountClass - Deposit Completed : ₱60000.0, New balance : ₱67000.0
+2026-01-22 15:54:29.490 INFO  com.bpi.training.M4Activity8.BankAccountClass - Test 'Deposit' completed successfully.
